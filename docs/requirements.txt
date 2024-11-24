@@ -1,0 +1,4 @@
+sphinx==4.2.0
+sphinx_rtd_theme
+readthedocs-sphinx-search==0.1.1
+django-erp-framework

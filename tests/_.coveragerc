@@ -1,0 +1,24 @@
+[run]
+disable_warnings = no-data-collected
+
+
+source=
+    django-erp-framework
+
+omit =
+    # omit anything in a .local directory anywhere
+    tests/
+    top_search/*
+    slick_reporting/*
+
+include =
+    ../../django-erp-framework/*
+
+[report]
+exclude_lines =
+        raise AssertionError
+        raise NotImplementedError
+        raise AttributeError
+        raise ImproperlyConfigured
+        raise AlreadyRegistered
+        raise NotRegistered
